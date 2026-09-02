@@ -1,1 +1,2 @@
-# Devlog\n\nLearning notes — 2026.
+# Devlog 
+Learning notes — 2026.
