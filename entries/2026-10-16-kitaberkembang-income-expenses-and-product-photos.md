@@ -26,8 +26,8 @@ requirements; I reviewed the screenshots and tested the live site.
 - CI runs 104 PHPUnit tests and 32 Playwright tests before the deploy
 
 **Lesson:** for a small food stall, a finance feature succeeds when it matches the
-receipt in their hand. Asking for total and quantity, not unit price, removed the
-one step people get wrong.
+receipt in their hand. Ask for what is printed on it, the total and the quantity,
+and let the software do the division.
 
 **Next:** export the income and expense records to a spreadsheet for monthly
 bookkeeping.
