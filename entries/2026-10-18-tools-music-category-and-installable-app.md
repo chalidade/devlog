@@ -2,8 +2,7 @@
 
 The same evening the [tools site](https://chalidade.github.io/tools/) got a new
 Music category with seven tools, all on the browser's own Web Audio API with no
-extra library and no sample files. Claude Code wrote the code; I set the list and
-played every instrument before each merge.
+extra library and no sample files. Claude Code wrote the code from my list.
 
 - **Guitar tuner:** McLeod pitch detection (NSDF) on the microphone, decimated so
   each analysis takes under 1 ms, with 8 tunings plus bass, ukulele and chromatic

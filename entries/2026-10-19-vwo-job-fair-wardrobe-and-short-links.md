@@ -1,7 +1,7 @@
 # VWO Job Fair: Clothes You Earn, and Shorter Event Links
 
 Besides the advertiser work, [jobfair.co.id](https://jobfair.co.id) got four
-smaller PRs (#124–#128). Claude Code wrote the code and tests; I set the rules.
+smaller PRs (#124–#128), written by Claude Code with tests.
 
 - **Wardrobe from missions.** The character creator now starts with a small set
   (5 hair styles, 4 outfits, every skin tone). Everything else comes from 15 item
