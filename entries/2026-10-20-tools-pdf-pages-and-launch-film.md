@@ -28,9 +28,16 @@ one tile in a wall of every tool.
   folded onto its start so the audio loops too
 - The tool names and icons come straight from the site's registry. The contract,
   its 4.2 MB size and the "−74%" are illustration, not a measured result
-- In the README it is an animated WebP (GitHub always shows it) linking to the MP4
-  with sound
+- The first README version was an animated WebP linking to the MP4, and it had no
+  sound: an image can't carry audio. GitHub only plays video inline when the file
+  is uploaded as a GitHub attachment, so both cuts are now attachments and the
+  README shows a real player (muted by default, which GitHub decides, not the
+  README)
+- An English cut followed the same afternoon: the same film with English copy and
+  a 10×5 wall of all 50 tools, because the site had grown past the 45 in the
+  first cut. `README.md` plays the English one, `README.id.md` the Indonesian one
 
 **Lesson:** the film shows 45 tools, and by the time it was in the README the site
 had 50. A real number in a video is accurate for a day, so the next cut should
-count in a way that doesn't date, or be easy to re-render.
+count in a way that doesn't date, or be easy to re-render. Re-rendering took one
+command, which is the argument for building films as code.
