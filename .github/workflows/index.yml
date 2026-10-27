@@ -1,0 +1,24 @@
+# Publishes the list of .md files as index.json on the `index` branch, so
+# chalidade.github.io/log/ can read it from raw.githubusercontent.com instead of
+# the 60-req/h GitHub API. A separate branch keeps main free of bot commits.
+name: index
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          find entries notes -name '*.md' | sort | jq -R . | jq -sc '{files: .}' > /tmp/index.json
+          cat /tmp/index.json
+          git checkout --orphan index && git rm -rfq . && cp /tmp/index.json index.json
+          git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com \
+            add index.json
+          git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com \
+            commit -qm "index: ${GITHUB_SHA::7}"
+          git push -fq origin HEAD:refs/heads/index
