@@ -1,6 +1,6 @@
 # VWO Job Fair: The Day Before Launch
 
-The event opens on 30 October, so 29 October was 16 pull requests on
+The event opens on 30 October, so 29 October was 19 pull requests on
 [jobfair.co.id](https://jobfair.co.id): a front page, a third payment gateway,
 a more forgiving Excel import and a lot of smaller fixes. Claude Code wrote the code and tests; I set the rules and checked the
 screens.
@@ -31,12 +31,20 @@ screens.
 - **Company sign-in only lets in a company's email.** Before, any Google account
   could sign in and got a fresh account. Now an email that belongs to no company
   gets no account and no session cookie, and sees a note on how to register
+- **The pre-registration code is worth coins.** A job seeker who signed up for
+  an event can claim coins for it from their profile (20 by default, set by the
+  organiser). The claim is a row in the same append-only coin ledger with the
+  sign-up as its idempotency key, so two taps, or two phones at once, still pay
+  once, and the amount always comes from the server's price table. Companies can
+  get welcome coins the same way, paid once per stand; that one is off until the
+  organiser sets an amount
 - Smaller fixes: long company names break over two lines on the stand sign
   (a pure `fitSignName` helper picks the lines and font size, with tests); the
   first package is called "Basic" everywhere, and missing features show a red X
   instead of a grey dash; Aula viewers in slide mode see the current slide
   instead of an empty stage; the stage chat follows new messages; the hub and
-  company portal got a "Keluar akun" button; a salary field no longer pushes a
+  company portal got a "Keluar akun" button and an install button (on Android
+  Chrome that becomes a WebAPK) that reopens on the last dashboard; a salary field no longer pushes a
   phone page sideways
 
 **Lesson:** never trust a payment webhook's body. Use it only as a signal to go
