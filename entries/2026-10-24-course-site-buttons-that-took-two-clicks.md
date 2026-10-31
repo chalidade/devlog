@@ -3,10 +3,6 @@
 Two small rounds on the Laravel course site from
 [last week's redesign](https://github.com/chalidade/devlog/blob/main/entries/2026-10-18-view-only-redesign-of-a-laravel-site.md).
 
-- **A PHP mitigation (23 October).** A `.user.ini` that sets
-  `session.upload_progress.enabled = 0`, the stop-gap for the PHP2Shell CVE
-  published this month. The comment in the file says to remove it once PHP on
-  the host is patched.
 - **Buttons on My Course needed two clicks.** The dashboard loads
   `mdb.min.js` but never shipped `mdb.min.css`. On press, the script adds a
   ripple `<span>` inside every `.btn`. With no styles, that span took up space
