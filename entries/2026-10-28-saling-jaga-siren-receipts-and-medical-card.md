@@ -1,6 +1,6 @@
 # Saling Jaga: A Siren, Read Receipts and a Medical Card
 
-The evening of day two on [Saling Jaga](https://github.com/chalidade/saling-jaga).
+The evening of day two on [Saling Jaga](https://saling-jaga.my.id).
 Most of it came from feedback after a hike with testers.
 
 - **Siren and SOS flashlight (v0.17.0).** A "Sirine & senter" chip opens a

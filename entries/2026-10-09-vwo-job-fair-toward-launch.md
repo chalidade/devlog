@@ -1,6 +1,6 @@
 # VWO Job Fair: From Bot Demo Toward a Real Launch
 
-[VWO](https://chalidade.github.io/vwo/) is a virtual job fair you walk through as a
+[VWO](https://jobfair.co.id) is a virtual job fair you walk through as a
 character. Today five PRs merged (#25 to #29) and the plan changed from "demo" to
 "launch on 18 October". Claude Code wrote the code; I set the scope, tested each
 build on my phone and decided what shipped.

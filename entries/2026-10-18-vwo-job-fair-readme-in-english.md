@@ -1,6 +1,6 @@
 # VWO Job Fair: A README Written for a Stranger
 
-The [vwo](https://github.com/chalidade/vwo) repo behind
+The [vwo](https://jobfair.co.id) repo behind
 [jobfair.co.id](https://jobfair.co.id) got an English README (PR #120,
 documentation only). Claude Code drafted it from the code and the numbers
 already published in this devlog.

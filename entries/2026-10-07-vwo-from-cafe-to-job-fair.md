@@ -1,6 +1,6 @@
 # VWO: From a Virtual Cafe to a Walkable Job Fair in One Day
 
-[VWO](https://chalidade.github.io/vwo/) started the day as design docs for a
+[VWO](https://jobfair.co.id) started the day as design docs for a
 virtual cafe (ERD, DFD, notes) and ended it as a job fair you walk through as a
 character: 15 PRs merged (#1 to #15). Claude Code wrote the code and the docs; I
 set the direction after each build and tested on my phone.

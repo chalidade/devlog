@@ -1,6 +1,6 @@
 # VWO Job Fair: VIP Stands, a Faster Hall, and the HR-to-Applicant Loop
 
-[VWO](https://chalidade.github.io/vwo/) is a virtual cafe and job fair you walk
+[VWO](https://jobfair.co.id) is a virtual cafe and job fair you walk
 through as a character. Today four PRs merged (#16 to #19). Claude Code wrote the
 code; I tested each build on my phone, sent back what looked wrong, and decided
 what shipped.

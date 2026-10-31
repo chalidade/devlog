@@ -1,6 +1,6 @@
 # Saling Jaga: Encrypted Links, Android 16 and a Play Store Build
 
-Day two of [Saling Jaga](https://github.com/chalidade/saling-jaga), v0.11.0 to
+Day two of [Saling Jaga](https://saling-jaga.my.id), v0.11.0 to
 v0.12.0. Most of the day went to privacy.
 
 - **Android 16 (API 36) and an App Bundle.** Edge-to-edge layout padded by the

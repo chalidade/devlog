@@ -1,6 +1,6 @@
 # VWO Job Fair: Aula, a Call Lounge, Logins, and Busy Floors
 
-[VWO](https://chalidade.github.io/vwo/) is a virtual cafe and job fair you walk
+[VWO](https://jobfair.co.id) is a virtual cafe and job fair you walk
 through as a character. Later the same day five more PRs merged (#20 to #24). Claude
 Code wrote the code; I tested each build on my phone, sent back what looked wrong,
 and decided what shipped.

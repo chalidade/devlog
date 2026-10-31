@@ -14,7 +14,7 @@ Measured numbers are labelled as measured, simulated or local.
 
 | Project | What it is | Links |
 | --- | --- | --- |
-| **VWO** | A virtual job fair you walk through as a character, with a coin ledger, realtime floors and a company portal | [Demo](https://chalidade.github.io/vwo/) · [Source](https://github.com/chalidade/vwo) |
+| **VWO** | A virtual job fair you walk through as a character, with a coin ledger, realtime floors and a company portal | [Demo](https://jobfair.co.id) · [Source](https://jobfair.co.id) |
 | **tools** | My everyday file toolbox, free for everyone: 38 tools that run entirely in the browser | [Live](https://chalidade.github.io/tools/) · [Source](https://github.com/chalidade/tools) |
 | **Kita Berkembang** | A store builder for Indonesian small businesses on WordPress Multisite | [Live](https://kitaberkembang.com) |
 | **weeknoo** | Prompt → GitHub issue → site, Android APK or WordPress block theme | [Live](https://chalidade.github.io/weeknoo/) · [Source](https://github.com/chalidade/weeknoo) |

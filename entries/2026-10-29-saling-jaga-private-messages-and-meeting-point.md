@@ -1,6 +1,6 @@
 # Saling Jaga: Private Messages and a Meeting Point
 
-Day three of [Saling Jaga](https://github.com/chalidade/saling-jaga), v0.19.0
+Day three of [Saling Jaga](https://saling-jaga.my.id), v0.19.0
 and v0.20.0, plus a shorter website.
 
 - **End-to-end encrypted private messages (v0.19.0).** Tap a member, then "Kirim

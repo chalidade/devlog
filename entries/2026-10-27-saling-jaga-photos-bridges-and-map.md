@@ -2,7 +2,7 @@
 
 The [morning's entry](https://github.com/chalidade/devlog/blob/main/entries/2026-10-27-saling-jaga-offline-emergency-app.md)
 covered the first seven PRs. The rest of the day took
-[Saling Jaga](https://github.com/chalidade/saling-jaga) from v0.6.0 to v0.10.1,
+[Saling Jaga](https://saling-jaga.my.id) from v0.6.0 to v0.10.1,
 with Claude Code writing the code and me reviewing builds and screenshots.
 
 - **Photos (v0.7.0).** A new IMAGE frame, at most 400 KB. A picked or captured
