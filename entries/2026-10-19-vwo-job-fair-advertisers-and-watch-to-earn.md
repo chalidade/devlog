@@ -16,8 +16,7 @@ application form to who approves what and how ads are paid for in coins.
 - **Watching an ad to the end earns a seeker one coin, and the server decides
   what "the end" means.** It issues a view token when the video starts and
   pays only after the video's length has passed on its own clock, once per
-  token, at most 10 paid videos a day, and the same campaign pays a person
-  once in 24 hours
+  token, with a daily cap per person and per campaign
 - The advertiser's charge and the viewer's reward are booked in one database
   transaction, each with an idempotency key in the coin ledger, so a retry can
   never pay twice
